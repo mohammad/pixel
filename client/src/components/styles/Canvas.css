@@ -1,0 +1,37 @@
+canvas {
+  border: 1px solid black;
+}
+
+canvas:hover {
+  cursor: pointer;
+}
+
+.canvas-parent {
+  height: 100%;
+  width: 100%;
+}
+
+.canvas-container {
+  position: relative;
+}
+
+.grid {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.navigator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
